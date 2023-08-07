@@ -1,0 +1,20 @@
+$neela_rang: skyblue;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+    {
+        margin: 3px;
+        padding: 2px;
+        border:3px solid red;
+        background: yellowgreen;
+        .innercontainer{
+            border: 3px;
+            background: green;
+            }
+        .button{
+            background-color: $neela_rang;
+        }
+    }
