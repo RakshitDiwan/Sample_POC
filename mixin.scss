@@ -1,0 +1,9 @@
+@mixin hello {
+    .innercontainer{
+        background-color: cyan;
+    }
+    .button{
+        background-color: black;
+        color: white;
+    }
+}
